@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh; 
+}
+
+.chess_container {
+   
+    width: 498px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chess_border {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.chess_squares {
+    width: 62px;
+    height: 62px;
+    background-color: black;
+}
+
+
+
+/* This css class is used in js file */
+
+.background_odd:nth-child(odd) {
+    background-color: white;
+}
+
+.background_even:nth-child(even) {
+    background-color: white;
+}
+
+@media screen and (min-width: 450px) and (max-width:767px) {
+    .chess_container {
+   
+        width: 426px;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .chess_squares {
+        width: 53px;
+        height: 53px;
+        background-color: black;
+    }
+}
