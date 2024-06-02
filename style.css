@@ -45,12 +45,12 @@ body {
 @media screen and (min-width: 320px) and (max-width:479px){
     .chess_container {
    
-        width: 290px;
+        width: 282px;
         
     }
     .chess_squares {
-        width: 36px;
-        height: 36px;
+        width: 35px;
+        height: 35px;
         
     }
 }
