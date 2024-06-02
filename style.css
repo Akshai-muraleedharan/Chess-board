@@ -42,17 +42,17 @@ body {
     background-color: white;
 }
 
-@media screen and (min-width: 450px) and (max-width:767px) {
+@media screen and (min-width: 320px) and (max-width:767px) {
     .chess_container {
    
-        width: 426px;
+        width: 290px;
         border: 1px solid black;
         display: flex;
         flex-wrap: wrap;
     }
     .chess_squares {
-        width: 53px;
-        height: 53px;
+        width: 36px;
+        height:36px;
         background-color: black;
     }
 }
